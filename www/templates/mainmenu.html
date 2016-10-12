@@ -1,0 +1,9 @@
+<ion-view view-title="The MLM Guru">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="mainMenuItem in mainMenu" href="#/app/mainmenu/{{ mainMenuItem.title }}">
+        {{mainMenuItem.heading}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
